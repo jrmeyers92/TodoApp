@@ -42,3 +42,7 @@ document.querySelector(".clear").addEventListener("click", function () {
     lies[i].remove();
   }
 });
+
+document.querySelector(".fa-pencil-alt").addEventListener("click", function () {
+  input.classList.toggle("none");
+});
