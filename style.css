@@ -15,6 +15,10 @@ body {
   display: none;
 }
 
+.line-through {
+  text-decoration: line-through;
+}
+
 #todo {
   margin-top: 2rem;
   display: flex;
@@ -49,6 +53,10 @@ li {
 
 .fa-trash-alt {
   margin-right: 2rem;
+  cursor: pointer;
+}
+
+span {
   cursor: pointer;
 }
 
